@@ -1,5 +1,5 @@
 /* fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
 
 /*------------------------
         Utilities
@@ -30,6 +30,41 @@ section {
   font-weight: 500;
   font-size: 20px;
   color: #ff9d00;
+}
+
+.panda-card {
+  border-radius: 15px;
+  border: 0;
+}
+
+.panda-card-title {
+  height: 77px;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.panda-card-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #4e4e4e;
+}
+
+.panda-card-price {
+  font-weight: 500;
+  color: #1f1f1f;
+  font-size: 30px;
+}
+
+.panda-card-footer {
+  background-color: transparent;
+  padding-bottom: 24px;
+}
+
+.panda-card-btn-buy-now {
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  padding: 18px 40px;
 }
 
 /*------------------------
@@ -90,4 +125,55 @@ section {
   background-color: #f4f4f4;
   margin-top: 40px;
   padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+/*------------------------------
+        Backpack Section 
+-------------------------------*/
+#backpack {
+  margin-top: 0;
+  padding: 100px 0 95px;
+  background-color: #f4f4f4;
+}
+
+/*------------------------------
+        Subscribe Section 
+-------------------------------*/
+#subscribe {
+  margin-bottom: 50px;
+}
+
+.subscribe-info {
+  width: 50%;
+}
+
+.subscribe-title {
+  color: #1f1f1f;
+  font-weight: 600;
+}
+
+.subscribe-text {
+  color: #707070;
+  font-weight: 500;
+}
+
+.input-container {
+  width: 100%;
+}
+
+.panda-email-input {
+  font-family: "Poppins", sans-serif;
+  border-radius: 6px 0 0 6px;
+  border: 0;
+  font-size: 24px;
+}
+
+.panda-submit-btn {
+  background-image: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+  color: white;
+  font-size: 24px;
+  border: 0;
+  border-radius: 0 6px 6px 0;
+  padding: 1rem 2rem;
 }
